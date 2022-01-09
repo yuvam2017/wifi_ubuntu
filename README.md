@@ -1,6 +1,8 @@
 # wifi_ubuntu
 ![image](https://user-images.githubusercontent.com/67573209/148687412-1247dac8-e092-42eb-ad17-48be77f551e1.png)
 
+
+NOTE :  Connect to internet (USING ETHERNET)
 ## METHOD 1 
 
     sudo apt-get update 
