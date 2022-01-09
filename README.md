@@ -23,3 +23,7 @@ NOTE :  Connect to internet (USING ETHERNET)
  ![image](https://user-images.githubusercontent.com/67573209/148687465-652aaf21-c9ad-4f97-968d-9b18393b3120.png)
 
   
+
+AT last reboot your system
+
+    sudo reboot
