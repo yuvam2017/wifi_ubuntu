@@ -2,11 +2,17 @@
 ![image](https://user-images.githubusercontent.com/67573209/148687412-1247dac8-e092-42eb-ad17-48be77f551e1.png)
 
 
-NOTE :  Connect to internet (USING ETHERNET)
+NOTE 1 : Connect to internet (USING ETHERNET) 
+NOTE 2 : If u just installed the ubuntu , you will find many videos in which many other commands are executed, but you dont need any other commands to execute.
+Just follow the steps mentioned down !!!!
+
 ## METHOD 1 
 
+    mkdir /usr/src/rtl8821ce-1.0.0
+    cd /usr/src/rtl8821ce-1.0.0
+
     sudo apt-get update 
-    sudo apt install git build-essential dkms
+    sudo apt-get install --reinstall git dkms build-essential linux-headers-$(uname -r)
     sudo git clone https://github.com/tomaspinho/rtl8821ce
     cd rtl8821ce
     chmod +x dkms-install.sh
@@ -21,8 +27,7 @@ NOTE :  Connect to internet (USING ETHERNET)
     ./wifi-add.sh
     
  ![image](https://user-images.githubusercontent.com/67573209/148687465-652aaf21-c9ad-4f97-968d-9b18393b3120.png)
-
-  
+    
 
 AT last reboot your system
 
