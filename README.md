@@ -24,11 +24,11 @@ Just follow the steps mentioned down !!!!
     git clone https://github.com/yuvam2017/wifi_ubuntu.git
     cd wifi_ubuntu
     
-    ### Option 1
-        chmod 777 wifi-add.sh
-        ./wifi-add.sh
-    ### Option 2
-        bash wifi-add.sh
+  ### Option 1
+    chmod 777 wifi-add.sh
+    ./wifi-add.sh
+  ### Option 2
+    bash wifi-add.sh
     
  ![image](https://user-images.githubusercontent.com/67573209/148687465-652aaf21-c9ad-4f97-968d-9b18393b3120.png)
     
